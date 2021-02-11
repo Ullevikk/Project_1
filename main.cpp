@@ -2,15 +2,11 @@
 using namespace std;
 // PROJECTS_1
 
-void Trapeze();
-    {
-    cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamatu" << endl ;
-    int h,a;
-    cin >> h ;
-    cin >> a ;
-    int STr=a*h;
-    cout << "Trapecijas laukums = " <<STr ;
-    }
+int a, S; 
+  cout << "Square area";
+  cin >> a;
+  S=a*a;
+return S;
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
@@ -39,7 +35,15 @@ int main() {
 
   if (user_answer=="Tr"|| user_answer=="tr")
   {
-    Trapeze();
+    int Trapeze();
+    {
+    cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamati" << endl ;
+    int h,a;
+    cin >> h ;
+    cin >> a ;
+    int STr=a*h;
+    cout << STr ;
+    return STr;}
   }
 
   if (user_answer=="R"|| user_answer=="r")
