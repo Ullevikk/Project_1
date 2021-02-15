@@ -2,11 +2,14 @@
 using namespace std;
 // PROJECTS_1
 
-int a, S; 
-  cout << "Square area";
+void Square()
+{
+  int a, S; 
+  cout << "kvadrata laukums";
   cin >> a;
   S=a*a;
-return S;
+  cout << S;
+}
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
