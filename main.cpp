@@ -22,6 +22,23 @@ int Paraleloram_angle ()
   
   return pa;
 }
+void Square()
+{
+  int a, S; 
+  cout << "kvadrata laukums";
+  cin >> a;
+  S=a*a;
+  cout << S;
+}
+void Trapeze();
+    {
+    cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamatu" << endl ;
+    int h,a;
+    cin >> h ;
+    cin >> a ;
+    int STr=a*h;
+    cout << "Trapecijas laukums = " <<STr ;
+    }
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
