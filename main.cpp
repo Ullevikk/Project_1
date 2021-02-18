@@ -1,22 +1,21 @@
 #include <iostream>
-using namespace std;
+#include <math> 
 // PROJECTS_1
 
-int Paraleloram_angle ()
+void Paraleloram_angle ()
 {
-  int a, b; 
-  float sinx, pa;
+  int a, b, x; 
+  float pa;
 
   cout << "\n Trijstura pamats ir: ";
   cin >> a;
   cout << "\n Sānu mala ir: ";
   cin >> b; 
-  cout << "\n Paralelograma lenķu sin vērtība ir: ";
-  cin >> sinx;
+  cout << "\n Paralelograma lenķu vērtība ir: ";
+  cin >> x;
   cout << "\n Paralelograma laukums ir: ";
-  pa = a*b*sinx; 
-  cin >> pa;
-  return pa;
+  pa = a*b*sin(x); 
+  cout >> pa;
 }
 
 int main() {
